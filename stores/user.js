@@ -1,4 +1,4 @@
-import { defineStore } from 'pinia'
+// import { defineStore } from 'pinia'
 const genRand = (bLimit, uLimit) => Math.floor(Math.random() * uLimit) + bLimit;
 
 export const useUserStore = defineStore("user", {
